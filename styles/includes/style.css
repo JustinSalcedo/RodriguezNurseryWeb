@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap');
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -1835,18 +1835,21 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     display: none !important; } }
 
 .navbar-area {
+  position: fixed;
+  background-color: #FFF;
+  z-index: 1;
   padding: 0; }
   .navbar-area.nav-absolute {
     position: absolute;
     left: 0;
     width: 100%;
     top: 0px;
-    z-index: 1; }
+    z-index: 2; }
   .navbar-area.nav-style-01 {
     height: 120px;
-    z-index: 1; }
+    z-index: 2; }
     .navbar-area.nav-style-01 .responsive-mobile-menu {
-      z-index: 2;
+      z-index: 3;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -8332,7 +8335,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 16px;
         color: #737571;
     }  
