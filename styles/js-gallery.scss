@@ -4,6 +4,13 @@
     h4 {
         font-family: 'Lora', serif;
         font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 577px) {
+        h4 {
+            margin-bottom: 32px;
+        }
     }
 }
 
@@ -11,5 +18,33 @@
     img {
         width: 74px;
         height: 74px;
+        border-radius: 16px;
+    }
+
+    @media (min-width: 320px) {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+        img {
+            width: 100px;
+            height: 100px; 
+            padding: 4px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        img {
+            width: 120px;
+            height: 120px; 
+            padding: 4px;
+        }
+    }
+
+    @media (min-width: 991px) {
+        img {
+            width: 160px;
+            height: 160px; 
+            padding: 8px;
+        }
     }
 }

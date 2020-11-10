@@ -2,6 +2,7 @@
 @media only screen and (min-width: 1441px) and (max-width: 1600px) {
   .navbar-area.nav-style-01 {
     height: 100px;
+    width: -webkit-fill-available;
   }
   .text .title,
   .text .subtitle {
@@ -223,7 +224,8 @@
 /* Mwdium Desktop Layout */
 @media only screen and (min-width: 1367px) and (max-width: 1440px) {
   .navbar-area.nav-style-01 {
-    height: 80px;
+    height: 96px;
+    width: -webkit-fill-available;
   }
   .nav-container {
     max-width: 1170px;
@@ -547,7 +549,7 @@
 /* Mwdium Desktop Layout */
 @media only screen and (max-width: 1366px) {
   .navbar-area.nav-style-01 {
-    height: 80px;
+    height: 96px;
     width: 100%;
   }
   .nav-container {
@@ -2798,7 +2800,10 @@
   }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 450px) {
+@media only screen and (min-width: 415px) and (max-width: 576px) {
+  .section-1 {
+    margin-top: 96px!important;
+  }
 }
 
 /* mobile tablet layout 414px */
@@ -3030,6 +3035,10 @@
 /* mobile tablet layout 360px */
 
 @media only screen and (max-width: 360px) {
+  .navbar-area.nav-style-01 {
+    height: 96px;
+    width: -webkit-fill-available;
+  }
   .navbar-area.nav-style-01 .responsive-mobile-menu .mobile-toggler li {
     padding: 0 10px;
   }

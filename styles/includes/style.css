@@ -1846,8 +1846,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     top: 0px;
     z-index: 2; }
   .navbar-area.nav-style-01 {
+    width: -webkit-fill-available;
     height: 120px;
-    z-index: 2; }
+    z-index: 2; 
+    padding: 8px 0;  }
     .navbar-area.nav-style-01 .responsive-mobile-menu {
       z-index: 3;
       display: -webkit-box;
