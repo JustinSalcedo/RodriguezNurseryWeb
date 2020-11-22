@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="styles/index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/js-gallery.css">
-	<link rel="stylesheet" href="styles/lightbox.min.css">
+    <link rel="stylesheet" href="styles/lightbox.min.css">
+    <link rel="stylesheet" href="styles/frontview.css">
 </head>
 
 <body>
@@ -59,16 +60,15 @@
                         <div class="aj-mobile-menu">
                             <a href="javascript:void(0);" class="sidebar-close"><span>+</span></a>
                             <ul class="box-mobile ">
-                                <li><a href="products-services.html">Our Services/a></li>
+                                <li><a href="products-services.html">Our Services</a></li>
                                 <li><a href="tel: (760) 703-0816">Contact</a></li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li>
                                     
                                         <div class="project-img">
                                             <ul class="client-img">
-                                                <li><a href="javascript:void(0);"><img src="assets/Facebook.svg" alt=""></a></li>
-                                                <li><a href="javascript:void(0);"><img src="assets/Twitter.svg" alt=""></a></li>                                    
-                                                <li><a href="javascript:void(0);"><img src="assets/WhatsApp.svg" alt=""></a></li>                                    
+                                                <li><a href="https://www.facebook.com/RodriguezNursery/"><img src="assets/Facebook.svg" alt=""></a></li>                               
+                                                <li><a href="https://wa.me/17607030816"><img src="assets/WhatsApp.svg" alt=""></a></li>                                    
                                             </ul>
                                         </div>
                                   
@@ -83,45 +83,42 @@
     </div>
 
     <main>
-        <section class="section-1">
-            <span class="image1"></span>
-            <span class="image2"></span>
-
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-7 col-md-9 col-lg-7 col-xl-8f">
-                        <div class="content-box">
-                            <h4>Rodriguez Nursery Plants</h4>
-                            <p><a href="https://shop.rodriguez-nursery.com" class="btn-theme1">Order Now</a></p>
+        <header id="frontview">
+            <section class="search-bar container">
+                <div class="row">
+                    <div class="col col-sm-8 offset-sm-2 col-xl-6 offset-xl-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-bar" id="search-field">
+                            <div class="input-group-append">
+                              <span class="input-group-text" id="search-button">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                </svg>
+                              </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="section-1-2">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 boc-box">
-                        <div class="boc-content">
-                            <img src="assets/Group 1.png" alt="">
-                            <h6>Delivered to your home</h6>
-                        </div>
-                    </div>
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 boc-box">
-                        <div class="boc-content">
-                            <img src="assets/Group 3.png" alt="">
-                            <h6>Best Value</h6>
-                        </div>
-                    </div>
-                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 boc-box">
-                        <div class="boc-content">
-                            <img src="assets/Group 6.png" alt="">
-                            <h6>100% Satisfaction-Return Policy</h6>
-                        </div>
+            </section>
+            <section class="banner-image container-flex">
+                <div class="row banner-image-top">
+                    <div class="col">
+                        <img src="assets/newhome-top-mobile.svg" alt="" class="d-md-none">
+                        <img src="assets/newhome-top-tablet.svg" alt="" class="d-none d-md-block d-xl-none m-auto">
+                        <img src="assets/newhome-top.svg" alt="" class="d-none d-xl-block m-auto">
                     </div>
                 </div>
-            </div>
-        </section>
+                <div class="row banner-image-main">
+                    <div class="col">
+                        <img src="assets/newhome-mobile.jpg" alt="" class="d-md-none">
+                        <img src="assets/newhome-tablet.jpg" alt="" class="d-none d-md-block d-xl-none m-auto">
+                        <img src="assets/newhome-tablet.jpg" alt="" class="d-none d-xl-block m-auto">
+                    </div>
+                </div>
+            </section>
+            <script src="scripts/search-bar.js"></script>
+        </header>
         <section class="section-8">
             <div class="container">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -474,8 +471,7 @@
                         </div>
                         <div class="copyright-area-inner">
                             <div class="qry-copy">
-                                2020, Copyright © <a href="javascript:void(0);" target="_blank">Rodriguez Nursery</a>. All Rights Reserved
-                                
+                                © 2020. Rodriguez Nursery. All Rights Reserved. | <a href="https://lifether.com"><img src="assets/lifether-logo-footer.svg" alt="Webmaster"></a>
                             </div>
                         </div>
                     </div>
@@ -483,9 +479,8 @@
                         <div class="footer-widget widget ">
                             <div class="project-img">
                                 <ul class="client-img">
-                                    <li><a href="javascript:void(0);"><img src="assets/Facebook.svg" alt=""></a></li>
-                                    <li><a href="javascript:void(0);"><img src="assets/Twitter.svg" alt=""></a></li>                                    
-                                    <li><a href="javascript:void(0);"><img src="assets/WhatsApp.svg" alt=""></a></li>                                    
+                                    <li><a href="https://www.facebook.com/RodriguezNursery/"><img src="assets/Facebook.svg" alt=""></a></li>                               
+                                    <li><a href="https://wa.me/17607030816"><img src="assets/WhatsApp.svg" alt=""></a></li>                                    
                                 </ul>
                             </div>
                         </div>
@@ -494,8 +489,7 @@
                     <div class="d-lg-none d-xl-none col-md-12 text-center">
                         <div class="copyright-area-inner">
                             <div class="qry-copy">
-                                2020, Copyright © <a href="javascript:void(0);" target="_blank">RodriguezNursery</a>. All Rights Reserved
-                                
+                                © 2020. Rodriguez Nursery. All Rights Reserved. | <a href="https://lifether.com"><img src="assets/lifether-logo-footer.svg" alt="Webmaster"></a>
                             </div>
                         </div>
                     </div>
