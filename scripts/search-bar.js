@@ -1,11 +1,11 @@
 const searchField = document.getElementById('search-field')
 const searchButton = document.getElementById('search-button')
+const searchForm = document.getElementById('search-form')
 
 searchButton.addEventListener('click', search)
-searchField.addEventListener('keypress', event => {
-    if (event.code == 'Enter' || 13) {
-        search()
-    }
+searchForm.addEventListener('submit', event => {
+    event.preventDefault()
+    search()
 })
 
 // EventHandler
