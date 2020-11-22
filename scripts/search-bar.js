@@ -3,7 +3,7 @@ const searchButton = document.getElementById('search-button')
 
 searchButton.addEventListener('click', search)
 searchField.addEventListener('keypress', event => {
-    if (event.code === 'Enter') {
+    if (event.code == 'Enter' || 13) {
         search()
     }
 })
