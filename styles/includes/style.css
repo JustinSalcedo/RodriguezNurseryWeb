@@ -8344,6 +8344,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .qry-copy a {
     font-weight: 500; }
 
+    .qry-copy img {
+      height: 16px;
+      margin-top: -2px;
+    }
+
 .footer-icon a {
   color: var(--bg-color-two);
   height: 35px;
