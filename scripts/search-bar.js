@@ -12,7 +12,7 @@ searchForm.addEventListener('submit', event => {
 
 function search () {
     let searchTerm = encodeURIComponent(searchField.value)
-    const redirectUrl = `https://shop.rodriguez-nursery.com/search?q=${searchTerm}&options%5Bprefix%5D=last`
+    const redirectUrl = `https://shop.rodriguez-nursery.com/collections/all/search?q=${searchTerm}&options%5Bprefix%5D=last`
 
     window.location.href = redirectUrl
 }
